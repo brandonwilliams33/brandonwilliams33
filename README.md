@@ -35,7 +35,7 @@ I'm looking for opportunities to contribute to **research or open-source project
 - Blockchain
 - Distributed computing
 
-I'm especially interested in working with researchers, PhD students, and open-source developers where I can contribute engineering work while learning how real research and systems are developed.
+I'm especially interested in working with researchers, PhD students, and open-source developers.
 
 ## 📫 Contact
 
