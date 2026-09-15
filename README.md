@@ -1,6 +1,6 @@
 # Hi, I'm Brandon 👋
 
-Computer Science undergraduate at **China University of Mining and Technology (CUMT)**.
+Cyber Security undergraduate at **China University of Mining and Technology (CUMT)**.
 
 I'm interested in **systems, cybersecurity, and blockchain**, with a particular focus on understanding how real-world systems are designed, secured, and evaluated.
 
