@@ -26,26 +26,6 @@ I'm interested in **systems, cybersecurity, and blockchain**, with a particular 
 - Software Engineering
 - Quantitative / Empirical Research
 
-## 🛠 Tech
-
-**Languages**
-
-`Java` `C/C++` `Python`
-
-**Tools & Technologies**
-
-`Git` `GitHub` `Docker` `Linux`
-
-Currently improving my experience with distributed systems, container security, debugging, testing, and collaborative software development.
-
-## 🌱 Currently learning
-
-- Distributed systems engineering
-- Secure code execution & sandboxing
-- Git / GitHub collaboration workflows
-- Blockchain development
-- Practical cybersecurity and CTF techniques
-
 ## 🤝 Open to collaboration
 
 I'm looking for opportunities to contribute to **research or open-source projects**, particularly in:
