@@ -1,73 +1,84 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" role="img" aria-labelledby="title description">
-  <title id="title">Brandon — Cybersecurity Student</title>
-  <desc id="description">Pixel art of Brandon at a computer beside a moonlit city window. A camera rests on the desk.</desc>
-  <defs>
-    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#172639"/><stop offset="1" stop-color="#1d2c3a"/></linearGradient>
-    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#14233b"/><stop offset="1" stop-color="#40536d"/></linearGradient>
-    <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#153d4b"/><stop offset="1" stop-color="#102c38"/></linearGradient>
-    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="6" width="2" height="2" fill="#9eb5c8" opacity=".07"/><rect x="18" y="18" width="2" height="2" fill="#9eb5c8" opacity=".05"/></pattern>
-  </defs>
-  <style>
-    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-    .cursor { animation: blink 1.5s steps(1,end) infinite; }
-    .star { animation: twinkle 7s ease-in-out infinite; }
-    .star.two { animation-delay: 2.5s; }
-    @keyframes blink { 0%, 48% {opacity:1} 49%, 100% {opacity:0} }
-    @keyframes twinkle { 0%, 100% {opacity:.35} 50% {opacity:.9} }
-    @media (prefers-reduced-motion: reduce) { .cursor,.star {animation:none} }
-  </style>
-  <rect width="900" height="580" fill="#0d1117"/>
-  <rect x="4" y="4" width="892" height="572" fill="#101a28" stroke="#486078" stroke-width="4"/>
-  <rect x="4" y="4" width="892" height="36" fill="#233246"/>
-  <rect x="4" y="40" width="892" height="4" fill="#486078"/>
-  <rect x="20" y="18" width="8" height="8" fill="#8dd0d8"/><rect x="36" y="18" width="8" height="8" fill="#948bc2"/><rect x="52" y="18" width="8" height="8" fill="#7fa895"/>
-  <text x="76" y="27" font-size="13" letter-spacing="2" fill="#b5c4cf">BRANDON.OS</text>
-  <text x="872" y="27" text-anchor="end" font-size="12" fill="#98aebc">HOME / 01</text>
-
-  <rect x="48" y="70" width="44" height="4" fill="#8dd0d8"/>
-  <text x="46" y="150" font-size="78" font-weight="800" letter-spacing="-4" fill="#e8f0ef">BRANDON</text>
-  <rect x="50" y="168" width="8" height="28" fill="#948bc2"/>
-  <text x="72" y="190" font-size="23" font-weight="600" fill="#c5d5db">Cybersecurity Student</text>
-  <text x="852" y="184" text-anchor="end" font-size="14" letter-spacing="1" fill="#8aaab6">CUMT / CHINA</text>
-
-  <rect x="24" y="216" width="852" height="326" fill="url(#wall)" stroke="#40566b" stroke-width="4"/>
-  <rect x="28" y="220" width="844" height="318" fill="url(#grain)"/>
-  <rect x="28" y="498" width="844" height="40" fill="#192838"/><rect x="28" y="494" width="844" height="4" fill="#35495d"/>
-
-  <rect x="52" y="238" width="294" height="226" fill="#0d192b" stroke="#60768a" stroke-width="8"/>
-  <rect x="64" y="250" width="270" height="202" fill="url(#sky)"/>
-  <path d="M64 390h24v-32h24v16h16v-52h24v12h16v-36h32v24h24v-20h24v44h16v-28h24v72h20v62H64z" fill="#273a50"/>
-  <path d="M64 414h16v-20h24v8h24v-36h24v24h24v-44h16v32h24v-20h16v56h24v-28h32v-16h20v82H64z" fill="#354b62"/>
-  <rect x="92" y="384" width="4" height="8" fill="#a0bbbd"/><rect x="144" y="350" width="4" height="8" fill="#a0bbbd"/><rect x="248" y="382" width="4" height="8" fill="#a0bbbd"/><rect x="272" y="406" width="4" height="8" fill="#a0bbbd"/>
-  <rect x="112" y="270" width="4" height="4" fill="#d4e1df" class="star"/><rect x="278" y="274" width="4" height="4" fill="#d4e1df" class="star two"/><rect x="254" y="318" width="4" height="4" fill="#d4e1df" class="star"/>
-  <path d="M204 272h24v8h8v24h-8v8h-24v-8h-8v-24h8z" fill="#c6d6d8"/><path d="M196 272h16v8h8v24h-8v8h-8v-8h-8z" fill="#dce6df"/>
-  <rect x="188" y="250" width="8" height="202" fill="#60768a"/><rect x="64" y="344" width="270" height="8" fill="#60768a"/>
-  <rect x="44" y="462" width="310" height="10" fill="#60768a"/><rect x="76" y="472" width="248" height="6" fill="#32495b"/>
-
-  <path d="M502 298 384 498h384L698 298z" fill="#5aaeb5" opacity=".055"/>
-  <rect x="414" y="286" width="332" height="176" fill="#0a1624" stroke="#70879a" stroke-width="8"/>
-  <rect x="426" y="298" width="308" height="152" fill="url(#screen)"/>
-  <rect x="426" y="298" width="308" height="24" fill="#285160"/>
-  <rect x="440" y="308" width="6" height="6" fill="#8dd0d8"/><rect x="452" y="308" width="6" height="6" fill="#948bc2"/>
-  <text x="476" y="315" font-size="11" fill="#bed1d6">brandon@home:~</text>
-  <text x="446" y="358" font-size="17" fill="#99d6d8">$ whoami</text>
-  <text x="446" y="386" font-size="17" fill="#e0edec">brandon / b</text>
-  <text x="446" y="417" font-size="14" fill="#a6c4b0">&gt; always curious</text>
-  <rect x="602" y="404" width="8" height="15" fill="#a6c4b0" class="cursor"/>
-  <rect x="558" y="462" width="44" height="16" fill="#60768a"/><rect x="530" y="478" width="100" height="8" fill="#60768a"/>
-
-  <rect x="354" y="354" width="48" height="16" fill="#203143"/><rect x="346" y="370" width="64" height="46" fill="#202f44"/>
-  <rect x="354" y="378" width="48" height="38" fill="#9b8eba"/><rect x="350" y="382" width="12" height="20" fill="#c2b3ba"/><rect x="402" y="382" width="8" height="12" fill="#c2b3ba"/>
-  <rect x="338" y="416" width="82" height="68" fill="#25384b"/><rect x="330" y="424" width="12" height="62" fill="#31465b"/>
-  <rect x="344" y="484" width="8" height="18" fill="#31465b"/><rect x="406" y="484" width="8" height="18" fill="#31465b"/>
-  <path d="M412 428h28v8h12v8h-40z" fill="#9b8eba"/><rect x="448" y="438" width="46" height="8" fill="#c2b3ba"/>
-
-  <rect x="390" y="480" width="444" height="14" fill="#718196"/><rect x="398" y="494" width="428" height="12" fill="#35495d"/>
-  <rect x="430" y="506" width="16" height="32" fill="#35495d"/><rect x="784" y="506" width="16" height="32" fill="#35495d"/>
-  <rect x="752" y="444" width="72" height="36" fill="#35495d"/><rect x="760" y="436" width="24" height="8" fill="#718196"/><rect x="760" y="452" width="56" height="20" fill="#718196"/>
-  <rect x="782" y="448" width="34" height="32" fill="#24394b"/><rect x="790" y="452" width="22" height="24" fill="#a4bac3"/><rect x="794" y="456" width="14" height="16" fill="#172e3d"/><rect x="798" y="460" width="6" height="8" fill="#8dd0d8"/>
-
-  <rect x="24" y="552" width="8" height="8" fill="#8dd0d8"/>
-  <text x="44" y="561" font-size="12" letter-spacing="1" fill="#9ab2c0">PERSONAL SPACE / VERSION 01</text>
-  <text x="876" y="561" text-anchor="end" font-size="12" fill="#9ab2c0">EXPLORE ↓</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 584 384" role="img" aria-labelledby="title desc">
+<title id="title">Brandon — welcome in.</title>
+<desc id="desc">A pixel chat window: heyyyy., 你好呀。, ¡hola!, i'm Brandon., welcome in. Three greetings arrive in sequence, then the conversation scrolls to the introduction. Plays once.</desc>
+<defs>
+  <pattern id="wallpaper" width="80" height="64" patternUnits="userSpaceOnUse">
+    <rect width="80" height="64" fill="#F5F0DD"/>
+    <path d="M14 12h4v4h4v4h-4v4h-4v-4h-4v-4h4z" fill="#DCDAC3"/>
+    <path d="M50 40h6v4h6v4h6v4h-10v-4h-8z" fill="#E6DCD4"/>
+  </pattern>
+  <clipPath id="chat-viewport"><path d="M24 62H552V342H24z"/></clipPath>
+</defs>
+<style>
+  .conversation { transform:translateY(-164px); animation:chat-scroll 8.6s cubic-bezier(.22,.7,.25,1) forwards; }
+  .message { animation:message-enter .5s cubic-bezier(.2,.7,.25,1) both; }
+  .message-one { animation-delay:.45s; }
+  .message-two { animation-delay:1.95s; }
+  .message-three { animation-delay:3.65s; }
+  .message-name { animation-delay:5.8s; }
+  .message-welcome { animation-delay:7.7s; }
+  @keyframes message-enter { from {opacity:0;transform:translateY(10px)} to {opacity:1;transform:translateY(0)} }
+  @keyframes chat-scroll {
+    0%,60% {transform:translateY(0)}
+    67%,82% {transform:translateY(-82px)}
+    90%,100% {transform:translateY(-164px)}
+  }
+  @media (prefers-reduced-motion:reduce) {
+    .conversation {animation:none;transform:translateY(-164px)}
+    .message {animation:none;opacity:1;transform:none}
+  }
+</style>
+<!-- Solid offset shadow, stepped silhouette and original window controls. -->
+<g shape-rendering="crispEdges">
+  <path d="M20 20H572V28H580V372H572V380H20V372H12V28H20z" fill="#BAA6BA"/>
+  <path d="M12 4H564V12H572V364H564V372H12V364H4V12H12z" fill="#40354B"/>
+  <path d="M14 8H562V16H568V360H560V368H16V360H8V16H14z" fill="#C2DCCB"/>
+  <path d="M16 16H560V48H16z" fill="#ADCDBF"/>
+  <path d="M18 16H558V18H18z" fill="#E8F4DF"/>
+  <!-- A folded-note mark; no technical title or personal logo. -->
+  <path d="M28 24H48V40H28z" fill="#40354B"/>
+  <path d="M30 26H46V38H30z" fill="#FFF4DB"/>
+  <path d="M32 28H42V30H32zM32 32H38V34H32z" fill="#BC7D7D"/>
+  <path d="M496 28H510V36H496zM526 24H530V28H534V32H530V36H526V32H522V28H526z" fill="#40354B"/>
+  <path d="M20 58H556V346H20z" fill="#40354B"/>
+  <path d="M24 62H552V342H24z" fill="url(#wallpaper)"/>
+</g>
+<g clip-path="url(#chat-viewport)">
+<g class="conversation">
+<g transform="translate(44 80)"><g class="message message-one" aria-label="heyyyy.">
+<path d="M8 4H240V8H248V60H240V68H16V76H4V12H8z" fill="#40354B" opacity=".12" shape-rendering="crispEdges"/>
+<path d="M8 0H236V4H244V56H236V64H12V72H0V8H8z" fill="#40354B" shape-rendering="crispEdges"/>
+<path d="M10 4H234V8H240V54H234V60H10V66H4V10H10z" fill="#FFF9E9" shape-rendering="crispEdges"/>
+<path fill="#40354B" d="M20 18h4v4h-4zM20 22h4v4h-4zM20 26h4v4h-4zM28 26h4v4h-4zM32 26h4v4h-4zM20 30h4v4h-4zM24 30h4v4h-4zM36 30h4v4h-4zM20 34h4v4h-4zM36 34h4v4h-4zM20 38h4v4h-4zM36 38h4v4h-4zM20 42h4v4h-4zM36 42h4v4h-4zM48 26h4v4h-4zM52 26h4v4h-4zM56 26h4v4h-4zM44 30h4v4h-4zM60 30h4v4h-4zM44 34h4v4h-4zM48 34h4v4h-4zM52 34h4v4h-4zM56 34h4v4h-4zM60 34h4v4h-4zM44 38h4v4h-4zM48 42h4v4h-4zM52 42h4v4h-4zM56 42h4v4h-4zM68 26h4v4h-4zM84 26h4v4h-4zM68 30h4v4h-4zM84 30h4v4h-4zM72 34h4v4h-4zM76 34h4v4h-4zM80 34h4v4h-4zM84 34h4v4h-4zM84 38h4v4h-4zM72 42h4v4h-4zM76 42h4v4h-4zM80 42h4v4h-4zM92 26h4v4h-4zM108 26h4v4h-4zM92 30h4v4h-4zM108 30h4v4h-4zM96 34h4v4h-4zM100 34h4v4h-4zM104 34h4v4h-4zM108 34h4v4h-4zM108 38h4v4h-4zM96 42h4v4h-4zM100 42h4v4h-4zM104 42h4v4h-4zM116 26h4v4h-4zM132 26h4v4h-4zM116 30h4v4h-4zM132 30h4v4h-4zM120 34h4v4h-4zM124 34h4v4h-4zM128 34h4v4h-4zM132 34h4v4h-4zM132 38h4v4h-4zM120 42h4v4h-4zM124 42h4v4h-4zM128 42h4v4h-4zM140 26h4v4h-4zM156 26h4v4h-4zM140 30h4v4h-4zM156 30h4v4h-4zM144 34h4v4h-4zM148 34h4v4h-4zM152 34h4v4h-4zM156 34h4v4h-4zM156 38h4v4h-4zM144 42h4v4h-4zM148 42h4v4h-4zM152 42h4v4h-4zM164 38h4v4h-4zM164 42h4v4h-4z"/>
+</g></g>
+<g transform="translate(44 162)"><g class="message message-two" aria-label="你好呀。">
+<path d="M8 4H204V8H212V60H204V68H16V76H4V12H8z" fill="#40354B" opacity=".12" shape-rendering="crispEdges"/>
+<path d="M8 0H200V4H208V56H200V64H12V72H0V8H8z" fill="#40354B" shape-rendering="crispEdges"/>
+<path d="M10 4H198V8H204V54H198V60H10V66H4V10H10z" fill="#E2EAD4" shape-rendering="crispEdges"/>
+<text x="20" y="44" font-family="'Songti SC', SimSun, serif" font-size="34" font-weight="600" letter-spacing="2" fill="#40354B">你好呀。</text>
+</g></g>
+<g transform="translate(44 244)"><g class="message message-three" aria-label="¡hola!">
+<path d="M8 4H192V8H200V60H192V68H16V76H4V12H8z" fill="#40354B" opacity=".12" shape-rendering="crispEdges"/>
+<path d="M8 0H188V4H196V56H188V64H12V72H0V8H8z" fill="#40354B" shape-rendering="crispEdges"/>
+<path d="M10 4H186V8H192V54H186V60H10V66H4V10H10z" fill="#F3D7CA" shape-rendering="crispEdges"/>
+<path fill="#40354B" d="M20 18h4v4h-4zM20 26h4v4h-4zM20 30h4v4h-4zM20 34h4v4h-4zM20 38h4v4h-4zM20 42h4v4h-4zM28 18h4v4h-4zM28 22h4v4h-4zM28 26h4v4h-4zM36 26h4v4h-4zM40 26h4v4h-4zM28 30h4v4h-4zM32 30h4v4h-4zM44 30h4v4h-4zM28 34h4v4h-4zM44 34h4v4h-4zM28 38h4v4h-4zM44 38h4v4h-4zM28 42h4v4h-4zM44 42h4v4h-4zM56 26h4v4h-4zM60 26h4v4h-4zM64 26h4v4h-4zM52 30h4v4h-4zM68 30h4v4h-4zM52 34h4v4h-4zM68 34h4v4h-4zM52 38h4v4h-4zM68 38h4v4h-4zM56 42h4v4h-4zM60 42h4v4h-4zM64 42h4v4h-4zM80 18h4v4h-4zM84 18h4v4h-4zM84 22h4v4h-4zM84 26h4v4h-4zM84 30h4v4h-4zM84 34h4v4h-4zM84 38h4v4h-4zM80 42h4v4h-4zM84 42h4v4h-4zM88 42h4v4h-4zM104 26h4v4h-4zM108 26h4v4h-4zM112 26h4v4h-4zM116 30h4v4h-4zM104 34h4v4h-4zM108 34h4v4h-4zM112 34h4v4h-4zM116 34h4v4h-4zM100 38h4v4h-4zM116 38h4v4h-4zM104 42h4v4h-4zM108 42h4v4h-4zM112 42h4v4h-4zM116 42h4v4h-4zM124 18h4v4h-4zM124 22h4v4h-4zM124 26h4v4h-4zM124 30h4v4h-4zM124 34h4v4h-4zM124 42h4v4h-4z"/>
+</g></g>
+<g transform="translate(44 326)"><g class="message message-name" aria-label="i&#x27;m Brandon.">
+<path d="M8 4H316V8H324V60H316V68H16V76H4V12H8z" fill="#40354B" opacity=".12" shape-rendering="crispEdges"/>
+<path d="M8 0H312V4H320V56H312V64H12V72H0V8H8z" fill="#40354B" shape-rendering="crispEdges"/>
+<path d="M10 4H310V8H316V54H310V60H10V66H4V10H10z" fill="#DDD9ED" shape-rendering="crispEdges"/>
+<path fill="#40354B" d="M28 18h4v4h-4zM24 26h4v4h-4zM28 26h4v4h-4zM28 30h4v4h-4zM28 34h4v4h-4zM28 38h4v4h-4zM24 42h4v4h-4zM28 42h4v4h-4zM32 42h4v4h-4zM44 18h4v4h-4zM44 22h4v4h-4zM52 26h4v4h-4zM56 26h4v4h-4zM64 26h4v4h-4zM52 30h4v4h-4zM60 30h4v4h-4zM68 30h4v4h-4zM52 34h4v4h-4zM60 34h4v4h-4zM68 34h4v4h-4zM52 38h4v4h-4zM60 38h4v4h-4zM68 38h4v4h-4zM52 42h4v4h-4zM60 42h4v4h-4zM68 42h4v4h-4zM92 18h4v4h-4zM96 18h4v4h-4zM100 18h4v4h-4zM104 18h4v4h-4zM92 22h4v4h-4zM108 22h4v4h-4zM92 26h4v4h-4zM108 26h4v4h-4zM92 30h4v4h-4zM96 30h4v4h-4zM100 30h4v4h-4zM104 30h4v4h-4zM92 34h4v4h-4zM108 34h4v4h-4zM92 38h4v4h-4zM108 38h4v4h-4zM92 42h4v4h-4zM96 42h4v4h-4zM100 42h4v4h-4zM104 42h4v4h-4zM116 26h4v4h-4zM124 26h4v4h-4zM128 26h4v4h-4zM116 30h4v4h-4zM120 30h4v4h-4zM132 30h4v4h-4zM116 34h4v4h-4zM116 38h4v4h-4zM116 42h4v4h-4zM144 26h4v4h-4zM148 26h4v4h-4zM152 26h4v4h-4zM156 30h4v4h-4zM144 34h4v4h-4zM148 34h4v4h-4zM152 34h4v4h-4zM156 34h4v4h-4zM140 38h4v4h-4zM156 38h4v4h-4zM144 42h4v4h-4zM148 42h4v4h-4zM152 42h4v4h-4zM156 42h4v4h-4zM164 26h4v4h-4zM168 26h4v4h-4zM172 26h4v4h-4zM176 26h4v4h-4zM164 30h4v4h-4zM180 30h4v4h-4zM164 34h4v4h-4zM180 34h4v4h-4zM164 38h4v4h-4zM180 38h4v4h-4zM164 42h4v4h-4zM180 42h4v4h-4zM204 18h4v4h-4zM204 22h4v4h-4zM192 26h4v4h-4zM196 26h4v4h-4zM204 26h4v4h-4zM188 30h4v4h-4zM200 30h4v4h-4zM204 30h4v4h-4zM188 34h4v4h-4zM204 34h4v4h-4zM188 38h4v4h-4zM204 38h4v4h-4zM192 42h4v4h-4zM196 42h4v4h-4zM200 42h4v4h-4zM204 42h4v4h-4zM216 26h4v4h-4zM220 26h4v4h-4zM224 26h4v4h-4zM212 30h4v4h-4zM228 30h4v4h-4zM212 34h4v4h-4zM228 34h4v4h-4zM212 38h4v4h-4zM228 38h4v4h-4zM216 42h4v4h-4zM220 42h4v4h-4zM224 42h4v4h-4zM236 26h4v4h-4zM240 26h4v4h-4zM244 26h4v4h-4zM248 26h4v4h-4zM236 30h4v4h-4zM252 30h4v4h-4zM236 34h4v4h-4zM252 34h4v4h-4zM236 38h4v4h-4zM252 38h4v4h-4zM236 42h4v4h-4zM252 42h4v4h-4zM260 38h4v4h-4zM260 42h4v4h-4z"/>
+</g></g>
+<g transform="translate(44 408)"><g class="message message-welcome" aria-label="welcome in.">
+<path d="M8 4H296V8H304V60H296V68H16V76H4V12H8z" fill="#40354B" opacity=".12" shape-rendering="crispEdges"/>
+<path d="M8 0H292V4H300V56H292V64H12V72H0V8H8z" fill="#40354B" shape-rendering="crispEdges"/>
+<path d="M10 4H290V8H296V54H290V60H10V66H4V10H10z" fill="#FFF9E9" shape-rendering="crispEdges"/>
+<path fill="#40354B" d="M20 26h4v4h-4zM36 26h4v4h-4zM20 30h4v4h-4zM36 30h4v4h-4zM20 34h4v4h-4zM28 34h4v4h-4zM36 34h4v4h-4zM20 38h4v4h-4zM28 38h4v4h-4zM36 38h4v4h-4zM24 42h4v4h-4zM32 42h4v4h-4zM48 26h4v4h-4zM52 26h4v4h-4zM56 26h4v4h-4zM44 30h4v4h-4zM60 30h4v4h-4zM44 34h4v4h-4zM48 34h4v4h-4zM52 34h4v4h-4zM56 34h4v4h-4zM60 34h4v4h-4zM44 38h4v4h-4zM48 42h4v4h-4zM52 42h4v4h-4zM56 42h4v4h-4zM72 18h4v4h-4zM76 18h4v4h-4zM76 22h4v4h-4zM76 26h4v4h-4zM76 30h4v4h-4zM76 34h4v4h-4zM76 38h4v4h-4zM72 42h4v4h-4zM76 42h4v4h-4zM80 42h4v4h-4zM96 26h4v4h-4zM100 26h4v4h-4zM104 26h4v4h-4zM92 30h4v4h-4zM92 34h4v4h-4zM92 38h4v4h-4zM96 42h4v4h-4zM100 42h4v4h-4zM104 42h4v4h-4zM120 26h4v4h-4zM124 26h4v4h-4zM128 26h4v4h-4zM116 30h4v4h-4zM132 30h4v4h-4zM116 34h4v4h-4zM132 34h4v4h-4zM116 38h4v4h-4zM132 38h4v4h-4zM120 42h4v4h-4zM124 42h4v4h-4zM128 42h4v4h-4zM140 26h4v4h-4zM144 26h4v4h-4zM152 26h4v4h-4zM140 30h4v4h-4zM148 30h4v4h-4zM156 30h4v4h-4zM140 34h4v4h-4zM148 34h4v4h-4zM156 34h4v4h-4zM140 38h4v4h-4zM148 38h4v4h-4zM156 38h4v4h-4zM140 42h4v4h-4zM148 42h4v4h-4zM156 42h4v4h-4zM168 26h4v4h-4zM172 26h4v4h-4zM176 26h4v4h-4zM164 30h4v4h-4zM180 30h4v4h-4zM164 34h4v4h-4zM168 34h4v4h-4zM172 34h4v4h-4zM176 34h4v4h-4zM180 34h4v4h-4zM164 38h4v4h-4zM168 42h4v4h-4zM172 42h4v4h-4zM176 42h4v4h-4zM212 18h4v4h-4zM208 26h4v4h-4zM212 26h4v4h-4zM212 30h4v4h-4zM212 34h4v4h-4zM212 38h4v4h-4zM208 42h4v4h-4zM212 42h4v4h-4zM216 42h4v4h-4zM228 26h4v4h-4zM232 26h4v4h-4zM236 26h4v4h-4zM240 26h4v4h-4zM228 30h4v4h-4zM244 30h4v4h-4zM228 34h4v4h-4zM244 34h4v4h-4zM228 38h4v4h-4zM244 38h4v4h-4zM228 42h4v4h-4zM244 42h4v4h-4zM252 38h4v4h-4zM252 42h4v4h-4z"/>
+</g></g>
+</g></g>
+<!-- Three quiet status tiles finish the bottom chrome. -->
+<path d="M28 354h6v6h-6z" fill="#85778F"/>
+<path d="M40 354h6v6h-6z" fill="#C18B82"/>
+<path d="M52 354h6v6h-6z" fill="#839E8D"/>
+<path d="M534 354h12v2h-12zM540 358h6v2h-6z" fill="#688576"/>
 </svg>
