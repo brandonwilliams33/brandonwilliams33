@@ -7,7 +7,7 @@
 ### `01 / WHOAMI`
 
 > **Brandon**<br>
-> Cybersecurity student at **China University of Mining and Technology (CUMT)**.<br>
+> Cybersecurity student at **China University of Mining and Technology (CUMT)**.
 
 ### `02 / CURIOSITIES`
 
@@ -15,15 +15,21 @@ Cybersecurity · Computer Science · Blockchain · Prediction Markets · Economi
 
 I like exploring ideas across disciplines — from how secure systems are built, to how markets behave, and how technology develops within a broader historical context.
 
-### `03 / OUTSIDE THE SCREEN`
+### `03 / CTF & CODE`
+
+I play **CTFs**, mostly around **MISC** and **WEB**.
+
+**Languages** — C++ · Python · Java
+
+### `04 / OUTSIDE THE SCREEN`
 
 - <img src="assets/icons/camera.svg" alt="" width="22"> **Photography** — landscapes, streets, and places worth remembering
 - <img src="assets/icons/football.svg" alt="" width="22"> **Football** — Manchester United · FC Barcelona
 - <img src="assets/icons/cards.svg" alt="" width="22"> **Poker** — Texas Hold'em
 
-### `04 / CONNECT`
+### `05 / CONNECT`
 
-I'm especially interested in prediction markets and always open to research discussions, exchanging ideas, or meeting people working on similar questions.
+I'm especially interested in **prediction markets** and always open to research discussions, exchanging ideas, or meeting people working on similar questions.
 
 If you're researching prediction markets — or simply have an interesting idea to discuss — feel free to reach out.
 
