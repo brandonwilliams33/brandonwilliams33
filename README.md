@@ -25,6 +25,7 @@ I play **CTFs**, mostly around **MISC** and **WEB**.
 
 - <img src="assets/icons/camera.svg" alt="" width="22"> **Photography** — landscapes, streets, and places worth remembering
 - <img src="assets/icons/football.svg" alt="" width="22"> **Football** — Manchester United · FC Barcelona
+- <a href="https://github.com/brandonwilliams33/football-team-badges"><img src="https://img.shields.io/badge/Manchester_United-%E2%80%8B?color=C8102E&style=for-the-badge" alt="Manchester United"></a> <a href="https://github.com/brandonwilliams33/football-team-badges"><img src="https://img.shields.io/badge/FC_Barcelona-%E2%80%8B?color=A50044&style=for-the-badge" alt="FC Barcelona"></a>
 - <img src="assets/icons/cards.svg" alt="" width="22"> **Poker** — Texas Hold'em
 
 ### `05 / CONNECT`
