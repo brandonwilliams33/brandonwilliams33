@@ -23,6 +23,10 @@ I like exploring ideas across disciplines — from how secure systems are built,
 
 ### `04 / CONNECT`
 
+I'm especially interested in prediction markets and always open to research discussions, exchanging ideas, or meeting people working on similar questions.
+
+If you're researching prediction markets — or simply have an interesting idea to discuss — feel free to reach out.
+
 [Instagram ↗](https://www.instagram.com/brandon0x1119/) · [Email ↗](mailto:barcazqn@gmail.com)
 
 <sub>personal space · version 01</sub>
