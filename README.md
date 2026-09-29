@@ -6,18 +6,18 @@
 
 ### `01 / WHOAMI`
 
-> **Brandon** · **b**<br>
+> **Brandon**<br>
 > Cybersecurity student at **China University of Mining and Technology (CUMT)**.<br>
-> Curious about cybersecurity, computer science, blockchain, and prediction markets.<br>
-> Outside the terminal: landscape photography, football, and Texas Hold'em.
 
-### `02 / DIGITAL INTERESTS`
+### `02 / CURIOSITIES`
 
-Cybersecurity · Computer Science · Blockchain · Prediction Markets
+Cybersecurity · Computer Science · Blockchain · Prediction Markets · Economics · History & Theory
 
-### `03 / OFFLINE MODE`
+I like exploring ideas across disciplines — from how secure systems are built, to how markets behave, and how technology develops within a broader historical context.
 
-- <img src="assets/icons/camera.svg" alt="" width="22"> **Photography** — landscape photography with a Canon EOS R8
+### `03 / OUTSIDE THE SCREEN`
+
+- <img src="assets/icons/camera.svg" alt="" width="22"> **Photography** — landscapes, streets, and places worth remembering
 - <img src="assets/icons/football.svg" alt="" width="22"> **Football** — Manchester United · FC Barcelona
 - <img src="assets/icons/cards.svg" alt="" width="22"> **Poker** — Texas Hold'em
 
@@ -25,4 +25,4 @@ Cybersecurity · Computer Science · Blockchain · Prediction Markets
 
 [Instagram ↗](https://www.instagram.com/brandon0x1119/) · [Email ↗](mailto:barcazqn@gmail.com)
 
-<sub>Brandon.OS · personal space, version 01</sub>
+<sub>personal space · version 01</sub>
