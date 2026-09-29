@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" role="img" aria-label="Pixel playing cards">
+  <path fill="#405369" d="M6 6h26v32H6z"/>
+  <path fill="#253545" d="M10 10h18v24H10z"/>
+  <path fill="#8a83b9" d="M16 14h6v4h-6zm-4 8h14v4H12z"/>
+  <path fill="#86a9b6" d="M28 12h14v32H18v-6h10z"/>
+  <path fill="#1b2936" d="M30 16h8v24H22v-2h8z"/>
+  <path fill="#83c7d6" d="M32 22h4v4h-4zm-4 4h4v4h-4zm8 0h4v4h-4zm-4 4h4v4h-4z"/>
+</svg>

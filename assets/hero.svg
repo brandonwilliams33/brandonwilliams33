@@ -1,0 +1,73 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 580" role="img" aria-labelledby="title description">
+  <title id="title">Brandon — Cybersecurity Student</title>
+  <desc id="description">Pixel art of Brandon at a computer beside a moonlit city window. A camera rests on the desk.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#172639"/><stop offset="1" stop-color="#1d2c3a"/></linearGradient>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#14233b"/><stop offset="1" stop-color="#40536d"/></linearGradient>
+    <linearGradient id="screen" x2="0" y2="1"><stop stop-color="#153d4b"/><stop offset="1" stop-color="#102c38"/></linearGradient>
+    <pattern id="grain" width="24" height="24" patternUnits="userSpaceOnUse"><rect x="2" y="6" width="2" height="2" fill="#9eb5c8" opacity=".07"/><rect x="18" y="18" width="2" height="2" fill="#9eb5c8" opacity=".05"/></pattern>
+  </defs>
+  <style>
+    text { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
+    .cursor { animation: blink 1.5s steps(1,end) infinite; }
+    .star { animation: twinkle 7s ease-in-out infinite; }
+    .star.two { animation-delay: 2.5s; }
+    @keyframes blink { 0%, 48% {opacity:1} 49%, 100% {opacity:0} }
+    @keyframes twinkle { 0%, 100% {opacity:.35} 50% {opacity:.9} }
+    @media (prefers-reduced-motion: reduce) { .cursor,.star {animation:none} }
+  </style>
+  <rect width="900" height="580" fill="#0d1117"/>
+  <rect x="4" y="4" width="892" height="572" fill="#101a28" stroke="#486078" stroke-width="4"/>
+  <rect x="4" y="4" width="892" height="36" fill="#233246"/>
+  <rect x="4" y="40" width="892" height="4" fill="#486078"/>
+  <rect x="20" y="18" width="8" height="8" fill="#8dd0d8"/><rect x="36" y="18" width="8" height="8" fill="#948bc2"/><rect x="52" y="18" width="8" height="8" fill="#7fa895"/>
+  <text x="76" y="27" font-size="13" letter-spacing="2" fill="#b5c4cf">BRANDON.OS</text>
+  <text x="872" y="27" text-anchor="end" font-size="12" fill="#98aebc">HOME / 01</text>
+
+  <rect x="48" y="70" width="44" height="4" fill="#8dd0d8"/>
+  <text x="46" y="150" font-size="78" font-weight="800" letter-spacing="-4" fill="#e8f0ef">BRANDON</text>
+  <rect x="50" y="168" width="8" height="28" fill="#948bc2"/>
+  <text x="72" y="190" font-size="23" font-weight="600" fill="#c5d5db">Cybersecurity Student</text>
+  <text x="852" y="184" text-anchor="end" font-size="14" letter-spacing="1" fill="#8aaab6">CUMT / CHINA</text>
+
+  <rect x="24" y="216" width="852" height="326" fill="url(#wall)" stroke="#40566b" stroke-width="4"/>
+  <rect x="28" y="220" width="844" height="318" fill="url(#grain)"/>
+  <rect x="28" y="498" width="844" height="40" fill="#192838"/><rect x="28" y="494" width="844" height="4" fill="#35495d"/>
+
+  <rect x="52" y="238" width="294" height="226" fill="#0d192b" stroke="#60768a" stroke-width="8"/>
+  <rect x="64" y="250" width="270" height="202" fill="url(#sky)"/>
+  <path d="M64 390h24v-32h24v16h16v-52h24v12h16v-36h32v24h24v-20h24v44h16v-28h24v72h20v62H64z" fill="#273a50"/>
+  <path d="M64 414h16v-20h24v8h24v-36h24v24h24v-44h16v32h24v-20h16v56h24v-28h32v-16h20v82H64z" fill="#354b62"/>
+  <rect x="92" y="384" width="4" height="8" fill="#a0bbbd"/><rect x="144" y="350" width="4" height="8" fill="#a0bbbd"/><rect x="248" y="382" width="4" height="8" fill="#a0bbbd"/><rect x="272" y="406" width="4" height="8" fill="#a0bbbd"/>
+  <rect x="112" y="270" width="4" height="4" fill="#d4e1df" class="star"/><rect x="278" y="274" width="4" height="4" fill="#d4e1df" class="star two"/><rect x="254" y="318" width="4" height="4" fill="#d4e1df" class="star"/>
+  <path d="M204 272h24v8h8v24h-8v8h-24v-8h-8v-24h8z" fill="#c6d6d8"/><path d="M196 272h16v8h8v24h-8v8h-8v-8h-8z" fill="#dce6df"/>
+  <rect x="188" y="250" width="8" height="202" fill="#60768a"/><rect x="64" y="344" width="270" height="8" fill="#60768a"/>
+  <rect x="44" y="462" width="310" height="10" fill="#60768a"/><rect x="76" y="472" width="248" height="6" fill="#32495b"/>
+
+  <path d="M502 298 384 498h384L698 298z" fill="#5aaeb5" opacity=".055"/>
+  <rect x="414" y="286" width="332" height="176" fill="#0a1624" stroke="#70879a" stroke-width="8"/>
+  <rect x="426" y="298" width="308" height="152" fill="url(#screen)"/>
+  <rect x="426" y="298" width="308" height="24" fill="#285160"/>
+  <rect x="440" y="308" width="6" height="6" fill="#8dd0d8"/><rect x="452" y="308" width="6" height="6" fill="#948bc2"/>
+  <text x="476" y="315" font-size="11" fill="#bed1d6">brandon@home:~</text>
+  <text x="446" y="358" font-size="17" fill="#99d6d8">$ whoami</text>
+  <text x="446" y="386" font-size="17" fill="#e0edec">brandon / b</text>
+  <text x="446" y="417" font-size="14" fill="#a6c4b0">&gt; always curious</text>
+  <rect x="602" y="404" width="8" height="15" fill="#a6c4b0" class="cursor"/>
+  <rect x="558" y="462" width="44" height="16" fill="#60768a"/><rect x="530" y="478" width="100" height="8" fill="#60768a"/>
+
+  <rect x="354" y="354" width="48" height="16" fill="#203143"/><rect x="346" y="370" width="64" height="46" fill="#202f44"/>
+  <rect x="354" y="378" width="48" height="38" fill="#9b8eba"/><rect x="350" y="382" width="12" height="20" fill="#c2b3ba"/><rect x="402" y="382" width="8" height="12" fill="#c2b3ba"/>
+  <rect x="338" y="416" width="82" height="68" fill="#25384b"/><rect x="330" y="424" width="12" height="62" fill="#31465b"/>
+  <rect x="344" y="484" width="8" height="18" fill="#31465b"/><rect x="406" y="484" width="8" height="18" fill="#31465b"/>
+  <path d="M412 428h28v8h12v8h-40z" fill="#9b8eba"/><rect x="448" y="438" width="46" height="8" fill="#c2b3ba"/>
+
+  <rect x="390" y="480" width="444" height="14" fill="#718196"/><rect x="398" y="494" width="428" height="12" fill="#35495d"/>
+  <rect x="430" y="506" width="16" height="32" fill="#35495d"/><rect x="784" y="506" width="16" height="32" fill="#35495d"/>
+  <rect x="752" y="444" width="72" height="36" fill="#35495d"/><rect x="760" y="436" width="24" height="8" fill="#718196"/><rect x="760" y="452" width="56" height="20" fill="#718196"/>
+  <rect x="782" y="448" width="34" height="32" fill="#24394b"/><rect x="790" y="452" width="22" height="24" fill="#a4bac3"/><rect x="794" y="456" width="14" height="16" fill="#172e3d"/><rect x="798" y="460" width="6" height="8" fill="#8dd0d8"/>
+
+  <rect x="24" y="552" width="8" height="8" fill="#8dd0d8"/>
+  <text x="44" y="561" font-size="12" letter-spacing="1" fill="#9ab2c0">PERSONAL SPACE / VERSION 01</text>
+  <text x="876" y="561" text-anchor="end" font-size="12" fill="#9ab2c0">EXPLORE ↓</text>
+</svg>

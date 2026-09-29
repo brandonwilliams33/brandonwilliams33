@@ -1,48 +1,28 @@
-# Hi, I'm Brandon 👋
+<div align="center">
 
-Cyber Security undergraduate at **China University of Mining and Technology (CUMT)**.
+<img src="assets/hero.svg" alt="Brandon's pixel art night workspace. Brandon is a cybersecurity student at CUMT." width="960">
 
-I'm interested in **systems, cybersecurity, and blockchain**, with a particular focus on understanding how real-world systems are designed, secured, and evaluated.
+</div>
 
-## 🔭 What I'm working on
+### `01 / WHOAMI`
 
-- **AegisJudge** — a distributed and secure code execution platform built with Java  
-  - distributed task scheduling
-  - concurrent execution
-  - worker heartbeat & fault recovery
-  - Docker-based sandboxing and resource isolation
-  - observability, testing, and performance benchmarking
+> **Brandon** · **b**<br>
+> Cybersecurity student at **China University of Mining and Technology (CUMT)**.<br>
+> Curious about cybersecurity, computer science, blockchain, and prediction markets.<br>
+> Outside the terminal: landscape photography, football, and Texas Hold'em.
 
-- Exploring **blockchain and prediction markets**, especially market dependencies, pricing inconsistencies, and arbitrage opportunities.
+### `02 / DIGITAL INTERESTS`
 
-- Learning and practicing **CTF / cybersecurity**, with interests in cryptography, system security, and vulnerability analysis.
+Cybersecurity · Computer Science · Blockchain · Prediction Markets
 
-## 🧠 What I'm interested in
+### `03 / OFFLINE MODE`
 
-- Systems Security
-- Distributed Systems
-- Blockchain & Web3
-- Applied Cryptography
-- Software Engineering
-- Quantitative / Empirical Research
+- <img src="assets/icons/camera.svg" alt="" width="22"> **Photography** — landscape photography with a Canon EOS R8
+- <img src="assets/icons/football.svg" alt="" width="22"> **Football** — Manchester United · FC Barcelona
+- <img src="assets/icons/cards.svg" alt="" width="22"> **Poker** — Texas Hold'em
 
-## 🤝 Open to collaboration
+### `04 / CONNECT`
 
-I'm looking for opportunities to contribute to **research or open-source projects**, particularly in:
+[Instagram ↗](https://www.instagram.com/brandon0x1119/) · [Email ↗](mailto:barcazqn@gmail.com)
 
-- Security
-- Systems
-- Blockchain
-- Distributed computing
-
-I'm especially interested in working with researchers, PhD students, and open-source developers.
-
-## 📫 Contact
-
-Email: **barcarzqn@gmail.com**
-
-GitHub: **@brandonwilliams33**
-<!---
-brandonwilliams33/brandonwilliams33 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+<sub>Brandon.OS · personal space, version 01</sub>
