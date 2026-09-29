@@ -11,7 +11,7 @@
 
 ### `02 / CURIOSITIES`
 
-Cybersecurity · Computer Science · Blockchain · Prediction Markets · Economics · History & Theory
+Cybersecurity · Computer Science · Blockchain · Prediction Markets · Economics
 
 I like exploring ideas across disciplines — from how secure systems are built, to how markets behave, and how technology develops within a broader historical context.
 
