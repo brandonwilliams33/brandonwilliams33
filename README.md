@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="Brandon's pixel art night workspace. Brandon is a cybersecurity student at CUMT." width="960">
+<img src="assets/hero.svg" alt="A warm welcome in English, Chinese, Cantonese, and Spanish, followed by Brandon's name." width="960">
 
 </div>
 
