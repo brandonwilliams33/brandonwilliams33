@@ -42,7 +42,6 @@ I'm especially interested in **prediction markets** and always open to research 
 
 If you're researching prediction markets — or simply have an interesting idea to discuss — feel free to reach out.
 
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://www.instagram.com/brandon0x1119/)
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:barcazqn@gmail.com)
 
 <sub>personal space · version 01</sub>
