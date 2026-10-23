@@ -1,6 +1,6 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 584 384" role="img" aria-labelledby="title desc">
-<title id="title">Brandon — welcome in.</title>
-<desc id="desc">A pixel chat window: heyyyy., 你好呀。, ¡hola!, i'm Brandon., welcome in. Three greetings arrive in sequence, then the conversation scrolls to the introduction. Plays once.</desc>
+<title id="title">Welcome to my profile — guest terminal</title>
+<desc id="desc">Pixel greetings play once, followed by a brief signal failure and a transition to a dark terminal. The terminal types welcome to brandon’s profile and waits at guest@profile:~$ with a blinking cursor. Decorative animation only; no input is required.</desc>
 <defs>
   <pattern id="wallpaper" width="80" height="64" patternUnits="userSpaceOnUse">
     <rect width="80" height="64" fill="#F5F0DD"/>
@@ -27,7 +27,48 @@
     .conversation {animation:none;transform:translateY(-164px)}
     .message {animation:none;opacity:1;transform:none}
   }
+
+  /* Timeline: chat 0–9.6s; failure 9.6–11.5s; terminal 11.8s; typing 12.7–14.9s. */
+  .legacy-scene {animation:signal-failure 1.9s 9.6s linear forwards;transform-origin:292px 192px}
+  @keyframes signal-failure {
+    0%,8% {transform:translate(0);opacity:1}
+    9% {transform:translate(-7px,2px) skewX(1deg)}
+    12%,27% {transform:translate(0);opacity:1}
+    28% {transform:translate(9px,-3px);opacity:.65}
+    32% {transform:translate(-5px,0);opacity:1}
+    36%,52% {transform:translate(0)}
+    53% {transform:translate(12px,1px) skewX(-2deg)}
+    57% {transform:translate(-9px,-2px);opacity:.7}
+    61%,70% {transform:translate(0);opacity:1}
+    76% {transform:translate(4px,0);opacity:.4}
+    82% {transform:translate(0) scaleY(1);opacity:1}
+    94% {transform:translate(0) scaleY(.008);opacity:.9}
+    100% {transform:translate(0) scaleY(0);opacity:0}
+  }
+  .interference {opacity:0;animation:interference 1.55s 9.6s steps(1,end) forwards}
+  @keyframes interference {
+    0%,12%,36%,64%,100% {opacity:0;transform:translateX(0)}
+    9%,28% {opacity:.75;transform:translateX(-8px)}
+    31%,53%,70% {opacity:.9;transform:translateX(9px)}
+    58%,78% {opacity:.4;transform:translateX(-3px)}
+  }
+  .terminal {opacity:0;animation:terminal-in .55s 11.8s ease-out forwards;transform-origin:292px 192px}
+  @keyframes terminal-in {from {opacity:0;transform:translateY(5px)} to {opacity:1;transform:translateY(0)}}
+  .typed {opacity:1;animation:show-char .001s steps(1,end) both}
+  @keyframes show-char {from {opacity:0} to {opacity:1}}
+  .typing-cursor {opacity:0;animation:typing-life 2.2s 12.7s steps(1,end) forwards,typing-travel 2.2s 12.7s steps(28,end) forwards}
+  @keyframes typing-life {0%,99% {opacity:1} 100% {opacity:0}}
+  @keyframes typing-travel {from {transform:translateX(0)} to {transform:translateX(336px)}}
+  .ready {opacity:0;animation:show-char .001s 15.3s forwards}
+  .idle-cursor {animation:cursor-blink 1.1s 15.3s steps(1,end) infinite}
+  @keyframes cursor-blink {0%,49% {opacity:1} 50%,100% {opacity:0}}
+  @media (prefers-reduced-motion:reduce) {
+    .legacy-scene,.interference,.typing-cursor {animation:none;opacity:0}
+    .terminal,.typed,.ready {animation:none;opacity:1;transform:none}
+    .idle-cursor {animation:none;opacity:1}
+  }
 </style>
+<g class="legacy-scene">
 <!-- Solid offset shadow, stepped silhouette and original window controls. -->
 <g shape-rendering="crispEdges">
   <path d="M20 20H572V28H580V372H572V380H20V372H12V28H20z" fill="#BAA6BA"/>
@@ -81,4 +122,36 @@
 <path d="M40 354h6v6h-6z" fill="#C18B82"/>
 <path d="M52 354h6v6h-6z" fill="#839E8D"/>
 <path d="M534 354h12v2h-12zM540 358h6v2h-6z" fill="#688576"/>
+</g>
+<!-- A short, non-looping signal failure, followed by a persistent terminal. -->
+<g class="interference" aria-hidden="true" shape-rendering="crispEdges">
+  <path d="M12 94h334v5H12zM214 160h350v9H214zM20 279h410v4H20z" fill="#57e8de"/>
+  <path d="M194 98h366v3H194zM12 169h276v5H12zM356 282h200v8H356z" fill="#d37baf"/>
+  <path d="M12 120h552v3H12zM12 222h552v8H12zM12 318h552v2H12z" fill="#121823"/>
+  <path d="M38 126h70v2H38zM190 185h180v2H190zM398 302h122v2H398z" fill="#f5f0dd"/>
+</g>
+<g class="terminal">
+  <rect x="13" y="16" width="562" height="360" rx="12" fill="#000" opacity=".18"/>
+  <rect x="5" y="5" width="562" height="362" rx="11" fill="#0d1117" stroke="#303947"/>
+  <path d="M16 5h540a11 11 0 0 1 11 11v29H5V16A11 11 0 0 1 16 5Z" fill="#191f28"/>
+  <path d="M6 45h560" stroke="#2a323f"/>
+  <circle cx="25" cy="25" r="4.5" fill="#ec6a64"/>
+  <circle cx="42" cy="25" r="4.5" fill="#e7bc53"/>
+  <circle cx="59" cy="25" r="4.5" fill="#62c282"/>
+  <g font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace">
+    <text x="286" y="29" text-anchor="middle" font-size="11" fill="#9ba7b6">guest@profile: ~</text>
+    <text x="30" y="84" font-size="11" fill="#687789">SESSION 01 <tspan fill="#3b4858">/</tspan> <tspan fill="#8eb9aa">guest</tspan></text>
+    <text x="30" y="133" font-size="14" fill="#74c7ac">guest<tspan fill="#8895a7">@</tspan><tspan fill="#8eb8e5">profile</tspan><tspan fill="#a2adbc">:~$</tspan></text>
+    <text x="30" y="176" font-family="'SFMono-Regular',Consolas,'Liberation Mono',monospace" font-size="20" font-weight="400" fill="#e6edf3" aria-label="welcome to brandon’s profile"><tspan class="typed" x="30" style="animation-delay:12.7786s">w</tspan><tspan class="typed" x="42" style="animation-delay:12.8571s">e</tspan><tspan class="typed" x="54" style="animation-delay:12.9357s">l</tspan><tspan class="typed" x="66" style="animation-delay:13.0143s">c</tspan><tspan class="typed" x="78" style="animation-delay:13.0929s">o</tspan><tspan class="typed" x="90" style="animation-delay:13.1714s">m</tspan><tspan class="typed" x="102" style="animation-delay:13.2500s">e</tspan><tspan class="typed" x="114" style="animation-delay:13.3286s">&#160;</tspan><tspan class="typed" x="126" style="animation-delay:13.4071s">t</tspan><tspan class="typed" x="138" style="animation-delay:13.4857s">o</tspan><tspan class="typed" x="150" style="animation-delay:13.5643s">&#160;</tspan><tspan class="typed" x="162" style="animation-delay:13.6429s">b</tspan><tspan class="typed" x="174" style="animation-delay:13.7214s">r</tspan><tspan class="typed" x="186" style="animation-delay:13.8000s">a</tspan><tspan class="typed" x="198" style="animation-delay:13.8786s">n</tspan><tspan class="typed" x="210" style="animation-delay:13.9571s">d</tspan><tspan class="typed" x="222" style="animation-delay:14.0357s">o</tspan><tspan class="typed" x="234" style="animation-delay:14.1143s">n</tspan><tspan class="typed" x="246" style="animation-delay:14.1929s">’</tspan><tspan class="typed" x="258" style="animation-delay:14.2714s">s</tspan><tspan class="typed" x="270" style="animation-delay:14.3500s">&#160;</tspan><tspan class="typed" x="282" style="animation-delay:14.4286s">p</tspan><tspan class="typed" x="294" style="animation-delay:14.5071s">r</tspan><tspan class="typed" x="306" style="animation-delay:14.5857s">o</tspan><tspan class="typed" x="318" style="animation-delay:14.6643s">f</tspan><tspan class="typed" x="330" style="animation-delay:14.7429s">i</tspan><tspan class="typed" x="342" style="animation-delay:14.8214s">l</tspan><tspan class="typed" x="354" style="animation-delay:14.9000s">e</tspan></text>
+    <rect class="typing-cursor" x="30" y="159" width="10" height="21" fill="#b5e7d3"/>
+    <g class="ready">
+      <text x="30" y="223" font-size="14" fill="#74c7ac">guest<tspan fill="#8895a7">@</tspan><tspan fill="#8eb8e5">profile</tspan><tspan fill="#a2adbc">:~$</tspan></text>
+      <rect class="idle-cursor" x="181" y="210" width="8" height="16" rx=".5" fill="#b5e7d3"/>
+    </g>
+    <path d="M6 337h560" stroke="#202936"/>
+    <circle cx="27" cy="352" r="2.5" fill="#74c7ac"/>
+    <text x="38" y="356" font-size="10" fill="#7f8d9e">zsh</text>
+    <text x="544" y="356" text-anchor="end" font-size="10" fill="#687789">UTF-8</text>
+  </g>
+</g>
 </svg>

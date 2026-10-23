@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/hero.svg" alt="A warm welcome in English, Chinese, Cantonese, and Spanish, followed by Brandon's name." width="960">
+<img src="assets/hero.svg" alt="A pixel chat sequence transitions into a terminal welcoming visitors to Brandon's profile." width="960">
 
 </div>
 
