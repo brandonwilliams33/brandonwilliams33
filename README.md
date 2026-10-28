@@ -40,7 +40,7 @@ I play **CTFs**, mostly around **MISC** and **WEB**.
 
 I'm especially interested in **prediction markets** and always open to research discussions, exchanging ideas, or meeting people working on similar questions.
 
-If you're researching prediction markets — or simply have an interesting idea to discuss — feel free to reach out.
+If you're researching prediction markets — or simply have an interesting idea to discuss — feel free to reach out!!
 
 [![Gmail](https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:barcazqn@gmail.com)
 
