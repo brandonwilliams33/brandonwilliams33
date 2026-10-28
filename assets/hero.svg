@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 584 384" role="img" aria-labelledby="title desc">
-<title id="title">Welcome to my profile — guest terminal</title>
+<title id="title">Welcome to my profile！ — guest terminal</title>
 <desc id="desc">Pixel greetings play once, followed by a brief signal failure and a transition to a dark terminal. The terminal types welcome to brandon’s profile and waits at guest@profile:~$ with a blinking cursor. Decorative animation only; no input is required.</desc>
 <defs>
   <pattern id="wallpaper" width="80" height="64" patternUnits="userSpaceOnUse">
